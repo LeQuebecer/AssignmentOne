@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Test</actionName>
+            <displayName>Test</displayName>
+        </action>
+        <action>
+            <actionName>CUSTOM-DebugTest</actionName>
+            <displayName>DebugTest</displayName>
+        </action>
+        <action>
+            <actionName>CUSTOM-DebugMaven</actionName>
+            <displayName>DebugMaven</displayName>
+            <properties>
+                <jpda.listen>maven</jpda.listen>
+            </properties>
+        </action>
+    </actions>
